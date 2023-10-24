@@ -18,6 +18,11 @@ body::before {
   background: #121214;
 }
 
+header {
+  width: 736px;
+  margin: auto;
+}
+
 header h1 {
   font-family: 'Archivo', sans-serif;
   font-weight: bold;
@@ -29,5 +34,5 @@ header h1 {
 header p {
   color: #42D3FF;
   font-size: 16px;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
 }
