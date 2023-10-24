@@ -1,6 +1,9 @@
 h1 {
   font-family: 'Archivo', sans-serif;
   font-weight: bold;
+  color: #FFF;
+  font-size: 36px;
+  line-height: 42px;
 }
 
 body {
