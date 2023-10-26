@@ -102,7 +102,7 @@ fieldset legend {
   line-height: 24px; 
 }
 .input-wrapper label span {
- color: #C1BCCC;
+ color: #727272;
 
  margin-left: 12px;
 
@@ -111,19 +111,25 @@ fieldset legend {
 }
 
 
-.input-wrapper input {
-  
-  flex-shrink: 0;
-  border-radius: 8px;
-  
-  border: 1px solid #E6E6F0;
+.input-wrapper input, .input-wrapper textarea { 
   background: #FAFAFC;
-  width: 608px;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  flex-shrink: 0;
+  
   height: 56px;
 
   padding: 0 24px;
 
-  color: #C1BCCC;
+  
   font-size: 16px;
   line-height: 26px; 
+
+  color: #727272;
 }
+
+.input-wrapper textarea { 
+  padding: 0;
+  height: 168px;
+  } 
