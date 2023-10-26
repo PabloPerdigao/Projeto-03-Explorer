@@ -23,13 +23,21 @@
       <form> 
         <!-- fieldset = conjunto de campo-->
         <fieldset>
-           <legend>Informações do Evento</legend>
+          <div class="fieldset-wrapper">
+            <legend>Informações do Evento</legend>
 
            <!--input-wrapper = encobrir-->
            <div class="input-wrapper">
-            <label for="event-title">Título do evento <span>(mínimo 8 caracteres)</span></label>
-            <input type="text" id="event-title" />
+             <label for="event-title">Título do evento <span>(mínimo 8 caracteres)</span></label>
+             <input type="text" id="event-title" />
            </div>
+
+           <!--input-wrapper = encobrir-->
+           <div class="input-wrapper">
+             <label for="event-link">Link do evento <span>(comece com https://)</span></label>
+             <input type="text" id="event-link" />
+           </div>
+          </div>
         </fieldset>
       </form>
    </div>
