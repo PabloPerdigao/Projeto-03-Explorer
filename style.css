@@ -61,6 +61,11 @@ form {
   border-radius: 8px 8px 0px 0px;
 
   padding: 64px;
+
+/*padronização de espaçamento entre os elemntos da página*/
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
 }
 
 fieldset {
@@ -146,5 +151,17 @@ fieldset legend {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cg clip-path='url(%23clip0_1_54)'%3E%3Cpath d='M8 10L12 14L16 10' stroke='%239C98A6' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1_54'%3E%3Crect width='24' height='24' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 24px top 50% ;
+
   }
 
+  .col-3 {
+    display: flex;
+    gap: 20px;
+
+  }
+
+  .col-3 > div:nth-child(1) {
+    width: 100%;
+  }
+   
+  
