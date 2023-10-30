@@ -62,10 +62,11 @@ form {
 
   padding: 64px;
 
-/*padronização de espaçamento entre os elemntos da página*/
-  display: flex;
-  flex-direction: column;
-  gap: 48px;
+ /*padronização de espaçamento entre os elemntos da página*/
+
+ display: flex;
+ flex-direction: column;
+ gap: 48px;
 }
 
 fieldset {
