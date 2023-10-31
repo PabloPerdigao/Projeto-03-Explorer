@@ -166,11 +166,6 @@ fieldset legend {
     width: 100%;
   }
 
-  .checkbox-wrapper {
-    /*position: relative;*/
-     
-  }
-
   .checkbox-wrapper label {
     display:flex ;
     margin: 0;
