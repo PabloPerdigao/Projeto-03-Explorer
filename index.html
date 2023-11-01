@@ -14,22 +14,25 @@
     <link rel="stylesheet" href="style.css">
  </head>
  <body>
-    <div class="page">
-
+   <div class="page">
       <header>
         <h1>Crie e compartilhe seu evento</h1>
         <p>O primeiro passo, é preencher esse formulário de inscrição</p>
       </header>
-      <form> 
+      <form id="my-form"> 
         <!-- fieldset = conjunto de campo-->
-        <fieldset>
+       <fieldset>
           <div class="fieldset-wrapper">
             <legend>Informações do Evento</legend>
 
            <!--input-wrapper = encobrir-->
            <div class="input-wrapper">
              <label for="event-title">Título do evento <span>(mínimo 8 caracteres)</span></label>
-             <input type="text" id="event-title" />
+             <input 
+               type="text" 
+               id="event-title"
+               required 
+               minlength="8"/>
            </div>
 
            <!--input-wrapper = encobrir-->
@@ -57,7 +60,7 @@
             </select>
           </div>
           </div>
-        </fieldset>
+       </fieldset>
 
        <fieldset>
          <div class="fieldset-wrapper">
@@ -66,12 +69,19 @@
 
             <div class="input-wrapper">
               <label for="event-email">E-mail do administrador <span>(digite um email válido)</span></label>
-              <input type="email" id="event-email" />
+              <input 
+                type="email" 
+                id="event-email" 
+                required />
            </div>
 
             <div class="input-wrapper">
               <label for="event-password">Senha de acesso para os participantes <span>(mínimo 8 caracteres)</span></label>
-              <input type="password" id="event-password" />
+              <input 
+                type="password" 
+                id="event-password" 
+                required 
+                minlength="8" />
            </div>
 
            <div class="checkbox-wrapper">
@@ -81,37 +91,40 @@
           </div>
        </fieldset>
 
-         <fieldset>
-            <div class="fieldset-wrapper">
+        <fieldset>
+          <div class="fieldset-wrapper">
               <legend>Dia e hora</legend>
            </div>
 
-            <div class="col-3">
+           <div class="col-3">
               <!--input-wrapper = encobrir-->
               <div class="input-wrapper">
                <label for="event-data">Data</label>
                <input type="date" id="event-data" />
-             </div>
+           </div>
 
-             <!--input-wrapper = encobrir-->
-             <div class="input-wrapper">
-               <label for="event-begin">Das</label>
-               <input type="time" id="event-begin" />
-             </div>
+            <!--input-wrapper = encobrir-->
+           <div class="input-wrapper">
+              <label for="event-begin">Das</label>
+              <input type="time" id="event-begin" />
+           </div>
 
-             <div class="input-wrapper">
-               <label for="event-end">Até</label>
-               <input type="time" id="event-end" />
-             </div>
-            </div>
-         </fieldset>  
+           <div class="input-wrapper">
+              <label for="event-end">Até</label>
+              <input type="time" id="event-end" />
+           </div>
+          </div>
+        </fieldset> 
 
-           
-        </form>
-        <footer>
-          <input type="submit" value="Salvar evento">
-        </footer>
-   </div>
+      </form>
+          <footer>
+            <input 
+                class="button" 
+                type="submit" 
+                form="my-form"
+                value="Salvar evento">
+           </footer>
+    </div>
  </body>
 </html>
 
