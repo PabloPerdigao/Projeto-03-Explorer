@@ -166,20 +166,23 @@ fieldset legend {
     width: 100%;
   }
 
+  .checkbox-wrapper input {
+    opacity: 0;
+  }
+
   .checkbox-wrapper label {
     display:flex ;
     margin: 0;
     gap: 16px;
     align-items: center;
   }
+
   .checkbox-wrapper input {
     position: absolute;
-    top: 0;
-    left: 0;
+    
     width: 24px;
     height: 24px;
-    
-    opacity: 0px;
+
     
   }
   
