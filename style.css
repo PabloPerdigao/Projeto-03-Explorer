@@ -182,8 +182,6 @@ fieldset legend {
     
     width: 24px;
     height: 24px;
-
-    
   }
   
   .checkbox-wrapper label::before {
@@ -204,4 +202,12 @@ fieldset legend {
 
 .checkbox-wrapper input:focus + label::before {
   outline: 2px solid black;
+}
+
+footer {
+  border-radius: 0px 0px 8px 8px;
+  background: #F0F0F4;
+  height: 136px;
+  display: flex;
+  flex-direction: column;
 }
