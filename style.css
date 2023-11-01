@@ -6,7 +6,7 @@
 
 }
 
-body, input, button, select, textarea {
+body, input,select, textarea {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -210,4 +210,34 @@ footer {
   height: 136px;
   display: flex;
   flex-direction: column;
+
+  padding: 40px 64px;
+  margin-bottom: 100px ;
+
+
+  border-top: 1px solid  #D6D6D6;
+}
+
+footer .button {
+  height: 56px;
+  border-radius: 8px;
+  background: #04D361;
+  border: 0;
+  
+  font-family: 'Archivo';
+
+  color: #FFF;
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px; 
+  
+}
+
+footer .button:hover {
+  background: #0eac55;
+}
+
+input:invalid {
+  border: 1px solid #FF1010;
 }
