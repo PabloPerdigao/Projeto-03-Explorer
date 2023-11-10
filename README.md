@@ -39,13 +39,13 @@ O Projeto 03 é um formulário para uma empresa cujo serviço prestado é a cria
 <br>Este projeto é dividido em 3 etapas de preenchimento:
 
 - <strong>Informações do Evento</strong> </br>
-Contém 5 campos de preenchmento (sendo 2 de tipo texto ,1 do tipo número,1 do tipo link e 1 do tipo seletor )
+Contém 5 campos de preenchimento (sendo 2 de tipo texto ,1 do tipo número,1 do tipo link e 1 do tipo seletor )
 
 - <strong>Privacidade</strong> </br>
-Contém 3 campos de preenchmento (sendo 1 de tipo texto ,1 do tipo password,1 do tipo checkbox )
+Contém 3 campos de preenchimento (sendo 1 de tipo texto ,1 do tipo password,1 do tipo checkbox )
 
 - <strong>Dia e hora</strong> </br>
-Contém 3 campos de preenchmento (sendo 1 de tipo data ,1 do tipo hora inicial,
+Contém 3 campos de preenchimento (sendo 1 de tipo data ,1 do tipo hora inicial,
 1 do tipo hora de término)
 
 ## 🔖 Layout
